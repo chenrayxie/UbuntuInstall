@@ -23,4 +23,6 @@ sudo apt update
 sudo apt upgrade
 sudo apt install git
 
+echo "chinese"
+sudo apt install ibus-chewing
 
