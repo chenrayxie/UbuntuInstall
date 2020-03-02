@@ -10,7 +10,8 @@ sudo apt install snap
 echo "android-studio"
 sudo apt install openjdk-8-jre openjdk-8-jdk
 sudo snap download "android-studio"
-sudo snap install android-studio_83.snap
+sudo snap ack android-studio_83.assert
+sudo snap install android-studio_83.snap --classic
 
 echo "pycharm"
 sudo snap install pycharm-community --classic
